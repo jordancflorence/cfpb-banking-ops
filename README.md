@@ -6,7 +6,7 @@ AI-augmented operational analysis of 14.3 million US consumer banking complaints
 
 ## Project Overview
 
-This project analyzes the full Consumer Financial Protection Bureau (CFPB) Consumer Complaint Database - a publicly available dataset of approximately 14.3 million complaints submitted against US financial institutions between 2011 and the present.
+This project analyzes the full Consumer Financial Protection Bureau (CFPB) Consumer Complaint Database -- a publicly available dataset of approximately 14.3 million complaints submitted against US financial institutions between 2011 and the present.
 
 The analytical goal is to simulate the kind of operational review a financial services analyst might conduct when assessing complaint trends, product risk, resolution patterns, and service gaps. Business questions were defined first, then answered through structured SQL queries built using an AI-assisted workflow.
 
@@ -25,10 +25,10 @@ The process for each query followed this pattern:
 
 Each query block in `analysis/complaint_analysis.sql` is annotated with four fields:
 
-- **Business Question** - the plain-language question the query is answering
-- **Prompt Used** - the exact or paraphrased prompt submitted to Claude
-- **Iteration Notes** - what changed between the initial draft and the final version, and why
-- **Insight** - the business-relevant finding produced by the query
+- **Business Question** -- the plain-language question the query is answering
+- **Prompt Used** -- the exact or paraphrased prompt submitted to Claude
+- **Iteration Notes** -- what changed between the initial draft and the final version, and why
+- **Insight** -- the business-relevant finding produced by the query
 
 This approach treats AI as a drafting accelerator, not a replacement for analytical judgment. The human-in-the-loop validation step is documented for every query.
 
@@ -55,11 +55,11 @@ OBSI references in the analysis summary are drawn from aggregate figures and tre
 
 ## Key Findings
 
-1. Credit reporting and credit card products account for the largest share of complaints by volume, reflecting the product categories where consumers most frequently experience unresolved disputes.
-2. Complaints submitted via the web resolve at a higher rate through timely responses compared to complaints submitted through other channels, suggesting intake method correlates with servicer prioritization.
-3. A small number of large institutions generate a disproportionate share of total complaints, consistent with market concentration patterns in both US and Canadian retail banking.
-4. The proportion of complaints receiving an untimely response has shifted over the observation period, with notable spikes correlating with periods of broader economic stress.
-5. Consumer dispute rates - where a consumer explicitly rejects the company's resolution - vary significantly by product type, indicating that some product categories produce systematically lower consumer satisfaction with outcomes.
+1. Credit reporting dominates complaint volume at 88 to 90% of all complaints in recent years, meaning system-wide metrics are almost entirely a reflection of credit reporting performance rather than the broader product landscape.
+2. Complaint issues concentrate predictably within product categories -- incorrect information accounts for 56% of credit reporting complaints and attempts to collect debt not owed accounts for 45% of debt collection complaints -- suggesting targeted process fixes could significantly reduce volume in high-concentration categories.
+3. Monetary relief rates vary dramatically by product type, with money transfer fraud resolving with relief at only 4.04% across nearly 69,000 complaints compared to 63% for credit card late fee complaints, indicating that product type is a stronger predictor of resolution outcome than complaint volume.
+4. January complaint volume is consistently elevated across nearly all product categories, with money transfer complaints spiking to 34.3% of annual volume in January alone, confirming a predictable seasonal risk window tied to post-holiday fraud activity.
+5. The three major credit bureaus each exceed 3.3 million complaints individually -- nearly 20 times higher than the next highest company -- making any benchmarking that groups them with deposit institutions analytically misleading.
 
 ---
 
@@ -76,6 +76,6 @@ The raw data file is not included in this repository due to file size. See `data
 
 ## About
 
-Built by Jordan Florence -- IT operations professional and contract professor with 9 years of experience in Canadian financial services. This project is part of a portfolio demonstrating applied SQL, AI workflow integration, and operational analysis skills.
+Built by Jordan Florence -- operations analyst with 9 years of experience in Canadian financial services at TD Canada Trust, currently teaching mobile app development as a contract professor at St. Clair College. This project is part of a portfolio demonstrating applied SQL, AI workflow integration, and operational analysis skills.
 
-[GitHub Profile](https://github.com/jordancflorence)
+[GitHub Profile](https://github.com/jordancflorence/cfpb-banking-ops)
