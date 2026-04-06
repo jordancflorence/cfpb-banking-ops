@@ -83,4 +83,10 @@ The raw data file is not included in this repository due to file size. See `data
 
 Built by Jordan Florence -- operations analyst with 9 years of experience in Canadian financial services at TD Canada Trust, currently teaching mobile app development as a contract professor at St. Clair College. This project is part of a portfolio demonstrating applied SQL, AI workflow integration, and operational analysis skills.
 
-[GitHub Profile](https://github.com/jordancflorence/cfpb-banking-ops)
+[GitHub Profile](https://github.com/jordancflorence)
+
+## If I Extended This Project
+
+- Replicate the complaint concentration analysis against Canadian FCAC complaint data when it becomes publicly available
+- Build a lightweight Power BI dashboard on top of the SQL output to demonstrate reporting-layer skills
+- Add a Python-based data loading script to make the PostgreSQL import reproducible for anyone cloning the repo
