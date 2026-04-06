@@ -1,6 +1,11 @@
-# cfpb-banking-ops
+# CFPB Banking Operations Analysis
 
-AI-augmented operational analysis of 14.3 million US consumer banking complaints, built to demonstrate analyst-level SQL fluency, structured business thinking, and applied AI workflow skills.
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+![SQL](https://img.shields.io/badge/tool-PostgreSQL-336791?logo=postgresql&logoColor=white)
+![AI Workflow](https://img.shields.io/badge/AI--assisted-Claude%20%28Anthropic%29-blueviolet)
+![Dataset](https://img.shields.io/badge/dataset-14.3M%20records-blue)
+
+> Analyst-level exploration of 14.3 million US consumer banking complaints -- structured SQL, documented AI workflow, and Canadian market context. Built as a portfolio demonstration of operational analysis and applied AI skills.
 
 ---
 
